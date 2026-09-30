@@ -1,0 +1,10 @@
+{
+  "name": "alwyn-portfolio",
+  "private": true,
+  "description": "Portfolio site with case studies, admin-editable content (Supabase) and serverless API on Vercel.",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "seed:sql": "node scripts/build-seed.js > db/seed.sql"
+  }
+}

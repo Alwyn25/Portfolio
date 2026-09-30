@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alwyn Sebastian — AI Engineer</title>
+<meta name="description" content="Alwyn Sebastian — AI/ML Engineer building production-grade voice AI, agentic LLM systems, RAG, and forensic document intelligence for regulated environments.">
+<meta property="og:title" content="Alwyn Sebastian — AI Engineer">
+<meta property="og:description" content="Deterministic, audit-ready AI systems: voice agents, multi-agent LLMs, RAG, and document forensics.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://alwyn-sebastian.vercel.app/assets/img/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0a0c0f">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=IBM+Plex+Mono:wght@400;500&family=Inter+Tight:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/home.css">
+</head>
+<body>
+<div id="progress"></div>
+<div id="glow"></div>
+
+<nav id="nav">
+  <div class="wrap">
+    <a href="#top" class="logo"><img class="av" id="navAvatar" src="/assets/img/avatar.webp" alt="" width="28" height="28">alwyn.sebastian</a>
+    <div class="links" id="links">
+      <a href="#about">About</a>
+      <a href="#systems">Systems</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Stack</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu">menu</button>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <canvas id="pipeline" aria-hidden="true"></canvas>
+  <div class="wrap" style="width:100%">
+    <div class="hero-inner" id="heroInner"></div>
+  </div>
+  <div class="legend mono" id="legend"></div>
+  <div class="scroll-hint">SCROLL<i></i></div>
+</header>
+
+<main>
+  <div class="wrap reveal"><div class="stats" id="stats"></div></div>
+
+  <section id="about">
+    <div class="wrap">
+      <div class="sec-head reveal"><span class="sec-num">01</span><h2>About</h2></div>
+      <div class="about" id="aboutBody"></div>
+    </div>
+  </section>
+
+  <section id="systems" style="padding-top:0">
+    <div class="wrap">
+      <div class="sec-head reveal"><span class="sec-num">02</span><h2>Flagship systems</h2></div>
+      <div class="systems" id="systemsList"></div>
+    </div>
+  </section>
+
+  <section id="experience" style="padding-top:0">
+    <div class="wrap">
+      <div class="sec-head reveal"><span class="sec-num">03</span><h2>Experience</h2></div>
+      <div class="timeline" id="timeline"><div class="tl-fill" id="tlFill"></div><div id="jobs"></div></div>
+    </div>
+  </section>
+
+  <section id="projects" style="padding-top:0">
+    <div class="wrap">
+      <div class="sec-head reveal"><span class="sec-num">04</span><h2>Projects</h2></div>
+      <div class="grid" id="projectGrid"></div>
+    </div>
+  </section>
+
+  <section id="skills" style="padding-top:0">
+    <div class="wrap">
+      <div class="sec-head reveal"><span class="sec-num">05</span><h2>Stack</h2></div>
+      <div class="filters reveal" id="filters"></div>
+      <div class="cloud reveal" id="cloud"></div>
+    </div>
+  </section>
+
+  <section id="writing" style="padding-top:0">
+    <div class="wrap">
+      <div class="sec-head reveal"><span class="sec-num">06</span><h2>Writing</h2></div>
+      <div class="writing" id="writingList"></div>
+    </div>
+  </section>
+
+  <div id="customSections"></div>
+
+  <section id="contact" class="contact">
+    <div class="wrap reveal" id="contactBody"></div>
+  </section>
+</main>
+
+<footer><div class="wrap" id="footerBody"></div></footer>
+
+<noscript><div style="padding:24px;text-align:center;color:#8b95a3">This portfolio needs JavaScript. Email: alwyn.ds.engineer@gmail.com</div></noscript>
+<script src="/assets/site-data.js"></script>
+<script src="/assets/projects-data.js"></script>
+<script src="/assets/content.js"></script>
+<script src="/assets/home.js"></script>
+</body>
+</html>
